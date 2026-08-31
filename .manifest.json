@@ -1,0 +1,54 @@
+{
+  "idea": {
+    "title": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
+    "source_url": "https://github.com/elyosh/OpenTIE/",
+    "source_platform": "Hacker News Show HN",
+    "description": "Build a modern port of Tie Fighter and X-Wing Alliance, OpenTIE and OpenXWA, to bring back classic space combat games.",
+    "suggested_language": "JavaScript"
+  },
+  "spec": {
+    "name": "Show HN: OpenTIE and OpenXWA",
+    "slug": "show-hn-opentie-openxwa-modern-ports-tie-fighter-x-wing-alliance",
+    "language": "JavaScript",
+    "description": "Build a modern port of Tie Fighter and X-Wing Alliance, OpenTIE and OpenXWA, to bring back classic space combat games.",
+    "problem": "The project aims to recreate the classic 1990s space combat games using modern JavaScript technologies.",
+    "files": [
+      {
+        "path": "index.html",
+        "purpose": "Main HTML structure"
+      },
+      {
+        "path": "styles.css",
+        "purpose": "Styling and layout"
+      },
+      {
+        "path": "game.js",
+        "purpose": "Game logic and rendering"
+      },
+      {
+        "path": "assets/tie-fighter.png",
+        "purpose": "Tie Fighter spaceship sprite"
+      },
+      {
+        "path": "assets/x-wing.png",
+        "purpose": "X-Wing spaceship sprite"
+      },
+      {
+        "path": "assets/space-background.jpg",
+        "purpose": "Space background image"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "file": "game.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    }
+  ],
+  "engine": "ollama (qwen2.5-coder:3b)",
+  "target_skill": "javascript",
+  "generated_at": "2026-08-31 08:52:31",
+  "project_dir": "c:\\projects saad\\code cladu poject\\projt gent\\generated\\show-hn-opentie-openxwa-modern-ports-tie-fighter-x-wing-alliance"
+}
